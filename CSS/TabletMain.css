@@ -1,0 +1,168 @@
+/* Global */
+.main {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+}
+
+/* Main Rules */
+/* Promo */
+.main__promo {
+    margin: 70px auto 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo__videos {
+    order: 1;
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.promo__image-1 {
+    margin-left: 475px;
+    position: relative;
+    z-index: 1;;
+}
+
+.promo__video {
+    margin: -211px auto 0 auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.promo__image-2 {
+    margin: 0;
+    position: relative;
+    bottom: 148px;
+    left: 40px;
+    z-index: 1;
+}
+
+.promo__text {
+    text-align: center;
+}
+
+.promo_title {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.promo_description {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* Why choose us */
+
+.main__why-us {
+    margin: 30px auto 0 auto;
+    width: 750px;
+    height: 750px;
+    display: block;
+}
+
+.why-us__text {
+    margin: 40px auto 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.why-us__text p {
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.why-us__advantages {
+    width: 600px;
+    height: auto;
+    margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    justify-items: center;
+}
+
+/* About gallery */
+
+.main__about {
+    margin: 40px auto 0 auto;
+    width: 600px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.about__text {
+    line-height: 190%;
+}
+
+.about__view-more-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about__rooms {
+    margin: auto;
+}
+
+/* Comments */
+
+.main__comments {
+    margin: 60px auto 0 auto;
+    width: 600px;
+    display: block;
+    text-align: center;
+}
+
+.comments__blocks {
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_user {
+    margin: 15px auto 15px auto;
+}
+
+/* Stay in Touch */
+
+.main__stay-in-touch {
+    margin: 50px auto 70px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stay-in-touch__form {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.stay-in-touch__input {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.stay-in-touch__input::placeholder {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 15px;
+}

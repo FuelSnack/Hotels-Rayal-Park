@@ -1,0 +1,4 @@
+/* Mobile Rules */
+
+@import url(MobileHeaderFooter.css) (max-width: 699px);
+@import url(MobileMain.css) (max-width: 699px);

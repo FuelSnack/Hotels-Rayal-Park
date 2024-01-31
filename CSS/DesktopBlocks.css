@@ -1,0 +1,4 @@
+/* Desktop Rules */
+
+    @import url(DesktopHeaderFooter.css) (min-width: 1000px);
+    @import url(DesktopMain.css) (min-width: 1000px);

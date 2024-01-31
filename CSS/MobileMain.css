@@ -1,0 +1,39 @@
+/* Global */
+.main {
+    margin: 0;
+    padding: 0;
+    width: 700px;
+}
+
+.main__promo {
+    width: 650px;
+    margin: 170px auto 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo__image-1 {
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.promo__video {
+    margin: -211px auto 0 auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.promo__image-2 {
+    margin-right: auto;
+    position: relative;
+    bottom: 148px;
+    z-index: 1;
+}
+
+.main__why-us {
+    width: 650px;
+}

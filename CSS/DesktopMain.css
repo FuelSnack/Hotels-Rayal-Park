@@ -1,0 +1,202 @@
+/* Global */
+.main {
+    margin: 0 auto;
+    width: 1600px;
+    height: 100%;
+    display: block;
+}
+/* Main Rules */
+/* Video and Promo */
+
+.main__promo {
+    width: 1301px;
+    height: 462px;
+    margin: 140px 258px 0 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo__videos {
+    width: 773px;
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+}
+
+.promo__image-1 {
+    margin-left: 289px;
+    position: relative;
+    z-index: 1;
+}
+
+.promo__video {
+    margin-left: 86px;
+    margin-top: -211px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.promo__image-2 {
+    position: relative;
+    bottom: 148px;
+    z-index: 1;
+}
+
+.promo__text {
+    width: 430px;
+    height: 222px;
+    margin: 82px 0 160px 0;
+}
+
+.promo_title {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.promo_description {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: -1.6px;
+}
+
+.promo_button {
+    margin-top: 30px;
+}
+
+/* Why choose Us */
+
+.main__why-us {
+    margin: 60px auto 0 auto;
+    width: 1140px;
+    height: 446px;
+    display: block;
+}
+
+.why-us__text {
+    width: 819px;
+    height: 128px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.why-us__text h2 {
+    margin: 0;
+    margin-top: 7px;
+}
+
+.why-us__text p {
+    line-height: 160%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.why-us__advantages {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About Gallery */
+
+.main__about {
+    margin: 140px auto 0 auto;
+    display: grid;
+    grid-template-columns: 555px 555px;
+    column-gap: 30px;
+    row-gap: 25px;
+    justify-content: center;
+}
+
+.about__text {
+    margin-top: 28px;
+    width: 439px;
+    height: 87px;
+    display: block;
+}
+
+.about__text h2 {
+    font-size: 29px;
+    line-height: 140%;
+}
+
+.about__text p {
+    line-height: 160%;
+}
+
+.about__view-more-button {
+    margin-top: 12px;
+}
+
+/* Comments */
+
+.main__comments {
+    margin: 135px auto 0 auto;
+    width: 1140px;
+    height: 100%;
+    display: block;
+}
+
+.main__comments_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments__blocks {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+/* Stay in Touch */
+
+.main__stay-in-touch {
+    margin: 142px auto 124px auto;
+    width: 985px;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.main__stay-in-touch h2 {
+    letter-spacing: 1.7px;
+}
+
+.main__stay-in-touch .font-gelasio {
+    font-size: 29px;
+    font-weight: 600;
+    word-spacing: -1.5px;
+}
+
+.stay-in-touch__form {
+    margin: 52px auto 0 auto;
+    width: 589px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.stay-in-touch__input {
+    margin: 0;
+    width: 404px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.stay-in-touch__button {
+    margin: 0;
+}
+
+.stay-in-touch__input::placeholder {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    position: relative;
+    left: 30px;
+}

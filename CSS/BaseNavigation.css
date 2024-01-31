@@ -1,0 +1,64 @@
+/* Buttons and Links Global*/
+
+button {
+    background-color: #1B75BB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.share__button {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Buttons */
+
+.header__book-now {
+    width: 134px;
+    height: 54px;
+}
+
+.presentation__button {
+    width: 138px;
+    height: 56px;
+}
+
+.booking__button {
+    width: 133px;
+    height: 56px;
+}
+
+.promo_button, .about__view-more-button {
+    width: 137px;
+    height: 56px;
+}
+
+.about__book-now {
+    width: 105px;
+    height: 41px;
+}
+
+.comments__button {
+    width: 133px;
+    height: 62px;
+}
+
+.stay-in-touch__button, .subscribe__button {
+    width: 164px;
+    height: 54px;
+}
+
+.share__button {
+    width: 155px;
+    height: 20px;
+}

@@ -1,0 +1,168 @@
+/* Blocks Global */
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.page, .page__body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .main, .footer {
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-home__list,
+.footer-pages__list {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Logo */
+
+.header__logo_link, 
+.footer__logo_link {
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.r-p_top,
+.r-p_bottom {
+    position: relative;
+    right: 80px;
+    top: 30px;
+}
+
+/* Advantage Blocks */
+
+.advantage__block {
+    margin: 0;
+    padding: 0;
+    width: 262px;
+    height: 258px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.advantage__block img {
+    margin-top: 15px;
+}
+
+.advantage__block h3 {
+    margin-top: 34px;
+}
+
+.advantage__block p {
+    margin-bottom: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 228px;
+}
+
+/* About hotel gallery Blocks */
+
+.about__rooms {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.about__room-booking {
+    margin-bottom: 5px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 231px;
+    height: 126px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.about__room-name, .about__room-cost {
+    margin-top: 25px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.about__room-cost {
+    padding: 5px 25px 0 0;
+    float: right;
+}
+
+.about__room-name, .room-cost_bold {
+    font-weight: bold;
+}
+
+.about__room-name,
+.about__book-now {
+    margin-left: 25px;
+}
+
+.about__book-now {
+    display: block;
+    margin-top: -2px;
+}
+
+/* Comments Blocks */
+
+.comment_user {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 325px;
+    display: block;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.user__avatar {
+    margin-top: 28px;
+}
+
+.comment__quote {
+    margin: 20px 10px 0 10px;
+}
+
+.comment__quote_grey-cite::before {
+    content: url(../Images/cite-grey.svg);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 26px;
+    right: 15px;
+}
+
+.comment__quote_blue-cite::before {
+    content: url(../Images/cite-blue.svg);
+    position: relative;
+    bottom: 26px;
+    right: 15px;
+}
+
+.comment_username {
+    margin-top: 29px;
+    margin-bottom: 0;
+}
+
+.comment__Ravi {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Date-Forms remove icon */
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}

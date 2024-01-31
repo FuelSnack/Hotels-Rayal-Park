@@ -1,0 +1,116 @@
+/* Fonts Global*/
+
+.page, .page__body {
+    font-family: roboto;
+    font-size: 18px;
+    color: #081F32;
+}
+
+.font-gelasio {
+    font-family: gelasio;
+}
+
+/* Logo Font */
+
+.header__logo, .footer__logo {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation Font */
+
+.header__li, .booking__font-size,
+.footer__li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.header__book-now,
+.presentation__button,
+.booking__button,
+.promo_button,
+.about__view-more-button, 
+.stay-in-touch__button,
+.subscribe__button {
+    font-size: 16px;
+}
+
+.comments__button {
+    font-size: 20px;
+}
+
+.about__book-now {
+    font-size: 14px;
+}
+
+.subscribe__button {
+    letter-spacing: 2px;
+}
+
+.stay-in-touch__button {
+    letter-spacing: 2px;
+}
+
+/* Main-Page Fonts */
+
+.presentation__serenity,
+.promo_title, .main__stay-in-touch h2 {
+    font-size: 20px;
+    color: #1B75BB;
+}
+
+.presentation__serenity {
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header__presentation h1 {
+    font-size: 57px;
+    letter-spacing: -1.35px;
+}
+
+.presentation__description {
+    line-height: 160%;
+}
+
+.booking__font-size {
+    font-weight: bold;
+}
+
+.advantage__block {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.about__room-cost {
+    font-size: 14px;
+}
+
+/* Comments Fonts */
+
+.comment__quote {
+    line-height: 160%;
+}
+
+.comment_username {
+    font-size: 20px;
+}
+
+.comment_usermail {
+    font-size: 14px;
+}
+
+/* Blue words color */
+
+.home_span {
+    color: #1B75BB;
+}
+
+.li__home {
+    color: #1B75BB;
+}

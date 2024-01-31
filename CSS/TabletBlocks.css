@@ -1,0 +1,4 @@
+/* Tablet Rules */
+
+@import url(TabletHeaderFooter.css) (max-width: 999px);
+@import url(TabletMain.css) (max-width: 999px);
